@@ -14,7 +14,6 @@ const SignInPage = () => {
         </TouchableOpacity>
         <Text style={styles.forgotText}>Forgot your password?</Text>
       </View>
-      <Text style={styles.footer}>codelatte.org</Text>
     </View>
   );
 };
