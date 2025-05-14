@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { View, Text, FlatList, StyleSheet } from 'react-native';
 import UserCard from './components/UserCard';
 
-const App = () => {
+const UserList = () => {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
@@ -40,4 +40,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default UserList;
